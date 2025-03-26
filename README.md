@@ -1,7 +1,7 @@
 <div align="center">
 <h1 align="center">Hola, soy <a href="https://www.linkedin.com/in/nadia-aracelly-arellano-gonz%C3%A1lez-426aa721?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bj4VlQ70lRJ6Ebm1f4ZLc0Q%3D%3D">Nadia Arellano</a> 👋</h1>
 </div>
-<img src="https://imgur.com/bhLMWMU.png">
+<img src="https://imgur.com/tvH1rmZ.png">
 
 ## Sobre mí  
 🚀 **Ingeniera en Informática** | 🌱 **Técnico Agrícola**  
