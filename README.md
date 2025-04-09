@@ -52,7 +52,7 @@ Actualmente, desarrollo proyectos orientados a:
 <td width="50%" valign="top">
 <h3 align="center">Aplicación Web "Club de la Comuna"</h3>
 <div align="center">
-<img src="https://imgur.com/QWJF39P.png" width="400" alt="Aplicación Web 'Club de la Comuna'">
+<img src="https://imgur.com/cK0xZ2d.png" width="400" alt="Aplicación Web 'Club de la Comuna'">
 <p>
 <br>
 <a href="https://www.youtube.com/watch?v=yyWqx2GflOA" target="_blank">
@@ -72,7 +72,7 @@ Por razones de **seguridad y confidencialidad**, el código no puede ser compart
 Si deseas conocer más sobre su arquitectura🛠, puedes revisar el siguiente diagrama:  
 
 <br>
-<img src="https://imgur.com/uwvvl5V.png" width="400">
+<img src="https://imgur.com/ctDz4hO.png" width="400">
   <br>
   <br>
 </div>    
@@ -82,7 +82,7 @@ Si deseas conocer más sobre su arquitectura🛠, puedes revisar el siguiente di
 <td width="50%" valign="top">
 <h3 align="center">Aplicación Móvil Android "Tregalo"</h3>
 <div align="center">
-<img src="https://imgur.com/slRoqjy.jpg" width="400" alt="Aplicación Web "Club de la Comuna"></a>
+<img src="https://imgur.com/Fn6Ucij.jpg" width="400" alt="Aplicación Web "Club de la Comuna"></a>
 <p>
 </a>
 <br>
