@@ -1,27 +1,41 @@
-<div align="center">
-  <h1>Hola, soy <a href="https://www.linkedin.com/in/nadia-aracelly-arellano-gonz%C3%A1lez-426aa721?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bj4vIQ70lRJ6Ebm1f4ZLc0Q%3D%3D">Nadia Arellano</a> 👋</h1>
-  <img src="https://i.imgur.com/1LRxgW1.png" alt="Nadia Avatar" width="300"/>
-</div>
+<table>
+  <tr>
+    <td>
 
-## Sobre mí  
-🚀 **Ingeniera en Informática** | 🌱 **Técnico Agrícola**  
-📊 **Experiencia en:** Machine Learning, IA, Análisis de Datos, Gobierno de Datos y Gestión de Riesgos TI.  
-💻 **Desarrollo Web & Móvil con:** **Python - Django, SQL, Kotlin, Ionic, JavaScript**.  
+<h1>Hola, soy <a href="https://www.linkedin.com/in/nadia-aracelly-arellano-gonz%C3%A1lez-426aa721?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bj4vIQ70lRJ6Ebm1f4ZLc0Q%3D%3D">Nadia Arellano</a> 👋</h1>
+<h3>Ingeniera en Informática & Data Analyst</h3>
+<p>🔍 Apasionada por el análisis de datos, la automatización y la aplicación de soluciones tecnológicas con propósito.</p>
+  </td>
+  <td>
+    <img src="https://imgur.com/8Ch3BEX.png" alt="Nadia Arellano Avatar" width="250"/>
+  </td>
+  </tr>
+</table>
 
-🌎 **Apasionada por la tecnología y su impacto en la sociedad**.  
-🌿 **Uniendo la informática con mi amor por la agricultura**.  
-🐶 **Amante de los animales**, junto a mi perrita **Kiara**.  
 
-📜 **Certificaciones en:**  
-🔹 **Azure AI, Python Essentials, Fundamentos DPO y Gobierno de Datos**.  
+## 💬 Sobre mí
 
-🎯 **Mi enfoque profesional:**  
-🔹 Cumplimiento normativo, evaluación de riesgos y gestión de procedimientos.  
-🔹 Seguridad de la información y protección de datos.  
-🔹 Optimización de procesos con soluciones tecnológicas innovadoras.  
+👩‍💻 **Ingeniera en Informática con perfil mixto: técnico y de negocio.**  
+📊 Apasionada por el **Análisis de Datos** y el uso de la tecnología para resolver problemas reales.  
 
-🔍 **Buscando oportunidades en**: Gestión de riesgos digitales, IA y análisis de datos.  
-💡 **Motivada por desarrollar soluciones que fortalezcan la seguridad de la información**.  
+He trabajado en sectores como agricultura, comercio, turismo y auditorías, aplicando desde análisis con Excel hasta herramientas modernas como **Python, SQL, Power BI, GCP y aprendizaje automático**. Me enfoco en transformar datos en información útil para mejorar la calidad operativa, fortalecer el cumplimiento normativo y apoyar la toma de decisiones basadas en evidencia.
+
+Actualmente, desarrollo proyectos orientados a:
+- Automatización de procesos de datos.
+- Generación de reportes estratégicos.
+- Visualización y limpieza de datasets reales.
+- Optimización de procesos con IA y herramientas cloud.
+
+🌿 Uniendo mi experiencia en el mundo agrícola con mi formación en TI, creo soluciones que integran tecnología y contexto de negocio.
+
+🐾 Amante de los animales. Siempre acompañada de mi perrita Kiara.
+
+---
+
+### 📌 Tecnologías principales:
+`Python` · `SQL` · `Power BI` ·  `Excel intermedio` · `Google Cloud Platform` · `Django` · `NLP` · `Machine Learning` · `ETL` 
+
+--- 
  
 
 ### 🌍 Encuéntrame también en:
