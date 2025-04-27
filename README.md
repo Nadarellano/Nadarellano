@@ -185,7 +185,8 @@ Matplotlib, Seaborn
 Looker Studio
 
 ## Documentos
-[PDF Resumen del Proyecto](https://github.com/Nadarellano/bigdata-transporte-santiago/blob/main/docs/resumen_proyecto_bigdata.pdf)
+[PDF Resumen del Proyecto](https://github.com/Nadarellano/modelo-prediccion-lluvia/blob/main/Docs/Resumen_Profesional_Proyecto_Prediccion_Lluvias.pdf)
+
 
 [Ver presentación en LinkedIn](https://www.linkedin.com/in/nadia-aracelly-arellano-gonz%C3%A1lez-426aa721)
 
