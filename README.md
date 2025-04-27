@@ -50,67 +50,6 @@ Actualmente, desarrollo proyectos orientados a:
 <table>
 <tr>
 <td width="50%" valign="top">
-<h3 align="center">Aplicación Web "Club de la Comuna"</h3>
-<div align="center">
-<img src="https://imgur.com/cK0xZ2d.png" width="400" alt="Aplicación Web 'Club de la Comuna'">
-<p>
-<br>
-<a href="https://www.youtube.com/watch?v=yyWqx2GflOA" target="_blank">
-    <img src="https://img.shields.io/badge/%20Ver%20en%20YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white">
-</a>
-</p>
-
-  ## 📌 Sobre el Proyecto 
-  
-La Aplicación Web **"Club de la Comuna"** fue desarrollada como parte de nuestro **proyecto de título**, en colaboración con mi equipo de estudio, para un **cliente real** interesado en su implementación.  
-
-Por razones de **seguridad y confidencialidad**, el código no puede ser compartido públicamente, ya que:  
-🔹 **Protege credenciales y datos sensibles**, evitando riesgos de seguridad.  
-🔹 **Cumple con buenas prácticas de seguridad**, previniendo la exposición de configuraciones críticas.  
-🔹 **Resguarda la privacidad y propiedad intelectual del cliente**, quien tiene derechos sobre la aplicación y su posible despliegue comercial.  
-
-Si deseas conocer más sobre su arquitectura🛠, puedes revisar el siguiente diagrama:  
-
-<br>
-<img src="https://imgur.com/ctDz4hO.png" width="400">
-  <br>
-  <br>
-</div>    
-</td>
-
-
-<td width="50%" valign="top">
-<h3 align="center">Aplicación Móvil Android "Tregalo"</h3>
-<div align="center">
-<img src="https://imgur.com/Fn6Ucij.jpg" width="300" alt="Aplicación Web "Club de la Comuna"></a>
-<p>
-</a>
-<br>
-<a href="https://github.com/Nadarellano/app_android_Tregalo" target="_blank">
-    <img src="https://img.shields.io/badge/%20Ver%20en%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
-</a>
-<a href="https://www.youtube.com/watch?v=ueYXdXZVPnY" target="_blank">
-    <img src="https://img.shields.io/badge/%20Ver%20en%20YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white">
-</a>
-</a>
-</p>
-  
-## 📌 Sobre el Proyecto
-
-Tregalo es una **aplicación móvil** diseñada para conectar a **donantes** con personas y organizaciones que necesitan ayuda.  
-Facilita la donación de **ropa, alimentos y otros artículos esenciales**, permitiendo que el apoyo llegue a quienes más lo necesitan de manera rápida y eficiente.  
-
-🎯 **¿Cómo funciona?**  
-✔ Permite a los donantes publicar artículos disponibles para donar.  
-✔ Conecta a quienes necesitan ayuda con organizaciones y personas cercanas.  
-✔ Facilita la gestión de donaciones para una distribución más efectiva.  
-<br>
-</div>
-                                                                                      
-</td> 
-</tr>
-<tr>
-<td width="50%" valign="top">
 <h3 align="center"> Proyecto Big Data – Transporte Público </h3>
 <div align="center">
 <img src="https://imgur.com/TybBgfF.png" width="400" alt="Proyecto Big Data GCP">
@@ -193,6 +132,68 @@ Looker Studio
 </div>
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+<h3 align="center">Aplicación Web "Club de la Comuna"</h3>
+<div align="center">
+<img src="https://imgur.com/cK0xZ2d.png" width="400" alt="Aplicación Web 'Club de la Comuna'">
+<p>
+<br>
+<a href="https://www.youtube.com/watch?v=yyWqx2GflOA" target="_blank">
+    <img src="https://img.shields.io/badge/%20Ver%20en%20YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white">
+</a>
+</p>
+
+  ## 📌 Sobre el Proyecto 
+  
+La Aplicación Web **"Club de la Comuna"** fue desarrollada como parte de nuestro **proyecto de título**, en colaboración con mi equipo de estudio, para un **cliente real** interesado en su implementación.  
+
+Por razones de **seguridad y confidencialidad**, el código no puede ser compartido públicamente, ya que:  
+🔹 **Protege credenciales y datos sensibles**, evitando riesgos de seguridad.  
+🔹 **Cumple con buenas prácticas de seguridad**, previniendo la exposición de configuraciones críticas.  
+🔹 **Resguarda la privacidad y propiedad intelectual del cliente**, quien tiene derechos sobre la aplicación y su posible despliegue comercial.  
+
+Si deseas conocer más sobre su arquitectura🛠, puedes revisar el siguiente diagrama:  
+
+<br>
+<img src="https://imgur.com/ctDz4hO.png" width="400">
+  <br>
+  <br>
+</div>    
+</td>
+
+
+<td width="50%" valign="top">
+<h3 align="center">Aplicación Móvil Android "Tregalo"</h3>
+<div align="center">
+<img src="https://imgur.com/Fn6Ucij.jpg" width="300" alt="Aplicación Web "Club de la Comuna"></a>
+<p>
+</a>
+<br>
+<a href="https://github.com/Nadarellano/app_android_Tregalo" target="_blank">
+    <img src="https://img.shields.io/badge/%20Ver%20en%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
+</a>
+<a href="https://www.youtube.com/watch?v=ueYXdXZVPnY" target="_blank">
+    <img src="https://img.shields.io/badge/%20Ver%20en%20YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white">
+</a>
+</a>
+</p>
+  
+## 📌 Sobre el Proyecto
+
+Tregalo es una **aplicación móvil** diseñada para conectar a **donantes** con personas y organizaciones que necesitan ayuda.  
+Facilita la donación de **ropa, alimentos y otros artículos esenciales**, permitiendo que el apoyo llegue a quienes más lo necesitan de manera rápida y eficiente.  
+
+🎯 **¿Cómo funciona?**  
+✔ Permite a los donantes publicar artículos disponibles para donar.  
+✔ Conecta a quienes necesitan ayuda con organizaciones y personas cercanas.  
+✔ Facilita la gestión de donaciones para una distribución más efectiva.  
+<br>
+</div>                                                                                 
+</td> 
+</tr>
+
+
 
 </table> 
 </div>
