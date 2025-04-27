@@ -93,7 +93,7 @@ Este proyecto utiliza **Google Cloud Platform** para implementar una arquitectur
 </td>
 
 <td width="50%" valign="top">
-<h3 align="center">Predicción de Lluvias: Machine Learning y CRISP-DM</h3>
+<h3 align="center">Predicción de Lluvias mediante Machine Learning con CRISP-DM</h3>
 <div align="center">
 <img src="https://imgur.com/4WF6Bmg.png" width="383" alt="Análisis Meteorológico">
 <p>
