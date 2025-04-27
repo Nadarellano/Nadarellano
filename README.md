@@ -82,7 +82,7 @@ Si deseas conocer más sobre su arquitectura🛠, puedes revisar el siguiente di
 <td width="50%" valign="top">
 <h3 align="center">Aplicación Móvil Android "Tregalo"</h3>
 <div align="center">
-<img src="https://imgur.com/Fn6Ucij.jpg" width="400" alt="Aplicación Web "Club de la Comuna"></a>
+<img src="https://imgur.com/Fn6Ucij.jpg" width="300" alt="Aplicación Web "Club de la Comuna"></a>
 <p>
 </a>
 <br>
@@ -107,7 +107,92 @@ Facilita la donación de **ropa, alimentos y otros artículos esenciales**, perm
 <br>
 </div>
                                                                                       
-</td>                                                       
+</td> 
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3 align="center"> Proyecto Big Data – Transporte Público </h3>
+<div align="center">
+<img src="https://imgur.com/TybBgfF.png" width="400" alt="Proyecto Big Data GCP">
+<p>
+<br>
+<a href="https://github.com/Nadarellano/bigdata-transporte-santiago" target="_blank">
+    <img src="https://img.shields.io/badge/%20Ver%20en%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
+</a>
+<a href="https://www.youtube.com/watch?v=-6EKKe9B-PE" target="_blank">
+    <img src="https://img.shields.io/badge/%20Ver%20en%20YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white">
+</a>
+</p>
+
+## 📌 Sobre el Proyecto
+
+Este proyecto utiliza **Google Cloud Platform** para implementar una arquitectura Big Data que analiza datos del **transporte público en Santiago**.
+
+🔹 Procesamiento batch y streaming con **Cloud Storage, Dataflow, Pub/Sub y BigQuery**  
+🔹 Visualización interactiva en **Looker Studio**  
+🔹 Consultas de negocio como paraderos accesibles, rutas por comuna y empresas operadoras.
+
+### 🛠 Tecnologías utilizadas
+☁️ Google Cloud Platform
+📊 BigQuery
+🔄 Dataflow (Apache Beam)
+📩 Pub/Sub
+📈 Looker Studio
+🐍 Python 3.8
+
+## Resultados
+🔹 Reportes dinámicos
+
+🔹 Análisis de accesibilidad, rutas y servicios por empresa
+<br>
+## Documentos
+[PDF Resumen del Proyecto](https://github.com/Nadarellano/bigdata-transporte-santiago/blob/main/docs/resumen_proyecto_bigdata.pdf)
+
+[Ver presentación en LinkedIn](https://www.linkedin.com/in/nadia-aracelly-arellano-gonz%C3%A1lez-426aa721)
+  
+</div>
+</td>
+
+<td width="50%" valign="top">
+<h3 align="center">Predicción de Lluvias: Machine Learning y CRISP-DM</h3>
+<div align="center">
+<img src="https://imgur.com/4WF6Bmg.png" width="383" alt="Análisis Meteorológico">
+<p>
+<br>
+<a href="https://github.com/Nadarellano/modelo-prediccion-lluvia" target="_blank">
+    <img src="https://img.shields.io/badge/%20Ver%20en%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
+</a>
+<a href="https://www.youtube.com/watch?v=2nMFFaJbMhA" target="_blank">
+    <img src="https://img.shields.io/badge/%20Ver%20en%20YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white">
+</a>
+</p>
+
+## 📌 Sobre el Proyecto
+
+En este proyecto desarrollamos un análisis exhaustivo de datos meteorológicos usando técnicas de minería de datos aplicadas a un dataset público de clima en Australia, utilizando Jupyter Notebook como entorno principal.
+
+📂 Dataset utilizado: Weather Australia, compuesto por más de 140 mil registros diarios, provenientes de múltiples estaciones meteorológicas del país.
+
+El objetivo fue generar información valiosa que apoye la toma de decisiones estratégicas en el cultivo de trigo, una actividad clave en Australia. Buscamos identificar patrones estacionales, prever condiciones climáticas adversas y desarrollar modelos predictivos confiables.
+
+Aplicamos la metodología CRISP-DM como marco estructurado para todo el proceso, abarcando desde la comprensión del negocio hasta la visualización final de resultados.
+
+**Tecnologías utilizadas**:
+Python
+Jupyter Notebook
+Pandas, NumPy, Scikit-learn
+Matplotlib, Seaborn
+Looker Studio
+
+## Documentos
+[PDF Resumen del Proyecto](https://github.com/Nadarellano/bigdata-transporte-santiago/blob/main/docs/resumen_proyecto_bigdata.pdf)
+
+[Ver presentación en LinkedIn](https://www.linkedin.com/in/nadia-aracelly-arellano-gonz%C3%A1lez-426aa721)
+
+</div>
+</td>
+</tr>
+
 </table> 
 </div>
 <br>
