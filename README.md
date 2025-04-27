@@ -50,7 +50,7 @@ Actualmente, desarrollo proyectos orientados a:
 <table>
 <tr>
 <td width="50%" valign="top">
-<h3 align="center"> Proyecto Big Data – Transporte Público </h3>
+<h3 align="center"> Proyecto Big Data – Transporte Público - Santiago de Chile</h3>
 <div align="center">
 <img src="https://imgur.com/TybBgfF.png" width="400" alt="Proyecto Big Data GCP">
 <p>
