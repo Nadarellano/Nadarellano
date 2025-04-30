@@ -40,8 +40,9 @@ Actualmente, desarrollo proyectos orientados a:
 
 ### 🌍 Encuéntrame también en:
 
+- 🔗 **LinkedIn:** [Nadia Arellano](https://www.linkedin.com/in/nadia-aracelly-arellano-gonz%C3%A1lez-426aa721/)
+- 📂 **Portfolio** [Nadia Arellano](https://lightning-border-85c.notion.site/Portfolio-Nadia-Arellano-1d114af533e1806ea872c0d073e87a07?pvs=4)
 - 📊 **Kaggle:** [Nadia Arellano](https://www.kaggle.com/nadiaarellanog)  
-- 🔗 **LinkedIn:** [Nadia Arellano](https://www.linkedin.com/in/nadia-aracelly-arellano-gonz%C3%A1lez-426aa721/)  
 
 <br>
 
@@ -87,6 +88,8 @@ Este proyecto utiliza **Google Cloud Platform** para implementar una arquitectur
 ## Documentos
 [PDF Resumen del Proyecto](https://github.com/Nadarellano/bigdata-transporte-santiago/blob/main/docs/resumen_proyecto_bigdata.pdf)
 
+[PDF Detallado del Proyecto](https://github.com/Nadarellano/bigdata-transporte-santiago/blob/main/docs/Informe_Completo_Proyecto_Transporte_BigData_GCP.pdf)
+
 [Ver presentación en LinkedIn](https://www.linkedin.com/in/nadia-aracelly-arellano-gonz%C3%A1lez-426aa721)
   
 </div>
@@ -126,6 +129,7 @@ Looker Studio
 ## Documentos
 [PDF Resumen del Proyecto](https://github.com/Nadarellano/modelo-prediccion-lluvia/blob/main/Docs/Resumen_Profesional_Proyecto_Prediccion_Lluvias.pdf)
 
+[Ver Análisis Detallado en Kaggle](https://www.kaggle.com/code/nadiaarellanog/modelo-de-predicci-n-de-lluvias)
 
 [Ver presentación en LinkedIn](https://www.linkedin.com/in/nadia-aracelly-arellano-gonz%C3%A1lez-426aa721)
 
@@ -157,6 +161,9 @@ Si deseas conocer más sobre su arquitectura🛠, puedes revisar el siguiente di
 
 <br>
 <img src="https://imgur.com/ctDz4hO.png" width="400">
+
+## Documentos
+[PDF Resumen del Proyecto](https://drive.google.com/file/d/1y6or-63F_Ihua9pTA6zQPYd0ntqWIZdk/view?usp=sharing)
   <br>
   <br>
 </div>    
@@ -188,6 +195,10 @@ Facilita la donación de **ropa, alimentos y otros artículos esenciales**, perm
 ✔ Permite a los donantes publicar artículos disponibles para donar.  
 ✔ Conecta a quienes necesitan ayuda con organizaciones y personas cercanas.  
 ✔ Facilita la gestión de donaciones para una distribución más efectiva.  
+
+## Documentos
+[PDF Resumen del Proyecto](https://drive.google.com/file/d/1a2c8Z19-JcpOeqOg1C2Ksvz2gUGv7k1l/view?usp=sharing)
+
 <br>
 </div>                                                                                 
 </td> 
