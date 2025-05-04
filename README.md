@@ -42,8 +42,9 @@ Actualmente, desarrollo proyectos orientados a:
 
 - 🔗 **LinkedIn:** [Nadia Arellano](https://www.linkedin.com/in/nadia-aracelly-arellano-gonz%C3%A1lez-426aa721/)
 - 📂 **Portfolio** [Nadia Arellano](https://lightning-border-85c.notion.site/Portfolio-Nadia-Arellano-1d114af533e1806ea872c0d073e87a07?pvs=4)
-- 📊 **Kaggle:** [Nadia Arellano](https://www.kaggle.com/nadiaarellanog)  
-
+- 📊 **Kaggle:** [Nadia Arellano](https://www.kaggle.com/nadiaarellanog)
+- ▶️ **YouTube:** [Informáticas Aconcagua](https://www.youtube.com/@Inform%C3%A1ticasAconcagua)
+- 📸 **Instagram:** [Informáticas Aconcagua](https://www.instagram.com/informaticas_aconcagua/)
 <br>
 
 
