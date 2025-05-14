@@ -132,7 +132,7 @@ Looker Studio
 
 [Ver Análisis Detallado en Kaggle](https://www.kaggle.com/code/nadiaarellanog/modelo-de-predicci-n-de-lluvias)
 
-[Ver presentación en LinkedIn](https://www.linkedin.com/in/nadia-aracelly-arellano-gonz%C3%A1lez-426aa721)
+[Ver presentación en LinkedIn](https://www.linkedin.com/posts/activity-7328495920700944384-EZXc?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAScY54Bz1v1B1JB3pZedXQTIUvQ5jjX7XU)
 
 </div>
 </td>
