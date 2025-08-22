@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Nadia Arellano — Portafolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portafolio de Nadia Arellano — datos, cloud y seguridad. Proyectos, habilidades y contacto.">
+  <link rel="icon" href="data:,">
+  <style>
+    /* ==========
+       Diseño base
+       ========== */
+    :root{
+      --bg:#0b0d10;
+      --panel:#111418;
+      --muted:#9aa4ae;
+      --text:#e8edf2;
+      --brand:#58a6ff;
+      --ok:#22c55e;
+      --maxw:1100px;
+      --radius:18px;
+      --shadow:0 10px 30px rgba(0,0,0,.25);
+    }
+    @media (prefers-color-scheme: light){
+      :root{
+        --bg:#f7f9fc;
+        --panel:#ffffff;
+        --muted:#56606a;
+        --text:#0e1116;
+        --brand:#0a66c2;
+        --shadow:0 10px 30px rgba(0,0,0,.08);
+      }
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0}
+    body{
+      font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,Helvetica,Arial,"Apple Color Emoji","Segoe UI Emoji";
+      background:var(--bg);
+      color:var(--text);
+      -webkit-font-smoothing:antialiased;
+      text-rendering:optimizeLegibility;
+    }
+    a{color:var(--brand);text-decoration:none}
+    .container{max-width:var(--maxw);margin:0 auto;padding:28px 22px}
+    .card{background:var(--panel);border-radius:var(--radius);box-shadow:var(--shadow)}
+    .elevate{transition:transform .22s ease, box-shadow .22s ease}
+    .elevate:hover{transform:translateY(-3px);box-shadow:0 18px 40px rgba(0,0,0,.25)}
+    /* ==========
+       Navbar
+       ========== */
+    .nav{
+      position:sticky;top:0;z-index:50;background:rgba(11,13,16,.7);
+      backdrop-filter:saturate(1.3) blur(10px);border-bottom:1px solid rgba(255,255,255,.06);
+    }
+    @media (prefers-color-scheme: light){ .nav{ background:rgba(247,249,252,.8)} }
+    .navwrap{display:flex;align-items:center;justify-content:space-between;gap:10px}
+    .brand{font-weight:700;letter-spacing:.2px}
+    .pillnav{display:flex;gap:8px;flex-wrap:wrap}
+    .pillnav a{
+      display:inline-block;padding:8px 12px;border-radius:999px;background:transparent;color:var(--text);
+      border:1px solid rgba(255,255,255,.12)
+    }
+    @media (prefers-color-scheme: light){ .pillnav a{ border-color:rgba(0,0,0,.08)} }
+    .pillnav a.active, .pillnav a:hover{background:var(--panel)}
+    /* ==========
+       Hero
+       ========== */
+    .hero{display:grid;grid-template-columns:1.1fr .9fr;gap:28px;align-items:center}
+    .badge{display:inline-flex;gap:8px;align-items:center;font-size:.85rem;color:var(--muted)}
+    .title{font-size:clamp(28px,3vw,42px);line-height:1.2;margin:.35em 0 .2em}
+    .subtitle{color:var(--muted);max-width:56ch}
+    .cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:18px}
+    .btn{
+      display:inline-flex;align-items:center;gap:8px;padding:10px 14px;border-radius:12px;
+      background:var(--brand);color:white;font-weight:600;border:none
+    }
+    .btn.outline{background:transparent;color:var(--text);border:1px solid rgba(255,255,255,.16)}
+    @media (prefers-color-scheme: light){ .btn.outline{ border-color:rgba(0,0,0,.12)} }
+    .avatar{
+      aspect-ratio:1/1;border-radius:18px;background:
+        radial-gradient(120% 120% at 100% 0%, rgba(88,166,255,.25) 0, transparent 60%),
+        radial-gradient(120% 120% at 0% 100%, rgba(34,197,94,.2) 0, transparent 60%),
+        var(--panel);
+      width:100%;min-height:260px;display:grid;place-items:center;font-weight:700;color:var(--muted)
+    }
+    /* ==========
+       Secciones
+       ========== */
+    section{scroll-margin-top:90px}
+    h2{font-size:clamp(22px,2.3vw,30px);margin:0 0 12px}
+    .lead{color:var(--muted);margin:0 0 18px}
+    .grid{display:grid;gap:16px}
+    .grid.cols-3{grid-template-columns:repeat(3,1fr)}
+    .grid.cols-2{grid-template-columns:repeat(2,1fr)}
+    @media (max-width:900px){ .hero{grid-template-columns:1fr} .grid.cols-3{grid-template-columns:1fr} .grid.cols-2{grid-template-columns:1fr} }
+    .chip{display:inline-block;padding:6px 10px;border-radius:999px;background:rgba(88,166,255,.15);margin:4px 6px 0 0;font-size:.9rem}
+    .muted{color:var(--muted)}
+    .card.pad{padding:18px}
+    .card.project{padding:18px;display:flex;flex-direction:column;gap:10px}
+    .card.project h3{margin:.1em 0}
+    .meta{font-size:.9rem;color:var(--muted)}
+    .list{padding-left:18px}
+    .footer{border-top:1px solid rgba(255,255,255,.08);margin-top:24px;padding-top:20px;color:var(--muted)}
+    /* Utilidades */
+    .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+  </style>
+</head>
+<body>
+  <a class="sr-only" href="#contenido">Saltar al contenido</a>
+
+  <!-- ==========
+       NAV
+       ========== -->
+  <header class="nav">
+    <div class="container navwrap">
+      <div class="brand">Portfolio | Nadia Arellano</div>
+      <nav class="pillnav" aria-label="Navegación principal">
+        <a href="#acerca" class="active">Acerca de mí</a>
+        <a href="#herramientas">Herramientas</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido" class="container">
+    <!-- ==========
+         HERO
+         ========== -->
+    <section class="hero card elevate" aria-labelledby="hero-title">
+      <div>
+        <div class="badge">Perfil Profesional</div>
+        <h1 id="hero-title" class="title">Datos • Cloud • Seguridad</h1>
+        <p class="subtitle">
+          Ingeniera en Informática orientada a analítica y buenas prácticas de seguridad en la nube.
+          Experiencia transversal y foco en automatización, reportería y calidad de datos.
+        </p>
+        <div class="cta">
+          <a class="btn outline" href="https://github.com/Nadarellano" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn outline" href="https://www.linkedin.com/in/nadia-aracelly-arellano-gonz%C3%A1lez-426aa721?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B5JVDKf2qSnWg9N2CS1AxoA%3D%3D" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn outline" href="https://lightning-border-85c.notion.site/Portfolio-Nadia-Arellano-1d114af533e1806ea872c0d073e87a07" target="_blank" rel="noopener">Portafolio Notion</a>
+          <a class="btn outline" href="https://www.kaggle.com/nadiaarellanog" target="_blank" rel="noopener">Kaggle</a>
+        </div>
+      </div>
+      <img src="https://imgur.com/8Ch3BEX.png" alt="Nadia Arellano Avatar" width="250"/>
+    </section>
+
+    <!-- ==========
+         ACERCA
+         ========== -->
+    <section id="acerca" style="margin-top:26px">
+      <h2>Acerca de mí</h2>
+      <p class="lead">
+        Analista en formación con base en ingeniería y experiencia en agricultura, comercio y auditorías.
+        Me enfoco en transformar datos en decisiones, automatizar procesos y aplicar controles de seguridad
+        de manera pragmática.
+      </p>
+      <ul class="list muted">
+        <li>Automatización y reportería con SQL, Python y Power BI.</li>
+        <li>Buenas prácticas de seguridad (gestión de accesos, trazabilidad, cumplimiento).</li>
+        <li>Enfoque en calidad, documentación y comunicación clara con stakeholders.</li>
+      </ul>
+    </section>
+
+    <!-- ==========
+         HERRAMIENTAS
+         ========== -->
+    <section id="herramientas" style="margin-top:26px">
+      <h2>Herramientas</h2>
+      <div class="grid cols-3">
+        <div class="card pad">
+          <h3>Datos &amp; BI</h3>
+          <p class="muted">Consultas, ETL y visualización.</p>
+          <div>
+            <span class="chip">SQL</span>
+            <span class="chip">Python</span>
+            <span class="chip">Power BI</span>
+            <span class="chip">Excel</span>
+          </div>
+        </div>
+        <div class="card pad">
+          <h3>Cloud &amp; Seguridad</h3>
+          <p class="muted">Buenas prácticas y monitoreo.</p>
+          <div>
+            <span class="chip">AWS</span>
+            <span class="chip">IAM</span>
+            <span class="chip">S3</span>
+            <span class="chip">QRadar</span>
+            <span class="chip">PRTG</span>
+          </div>
+        </div>
+        <div class="card pad">
+          <h3>Dev &amp; Docs</h3>
+          <p class="muted">Versionado y documentación.</p>
+          <div>
+            <span class="chip">Git &amp; GitHub</span>
+            <span class="chip">Markdown</span>
+            <span class="chip">Notion</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========
+         PROYECTOS
+         ========== -->
+    <section id="proyectos" style="margin-top:26px">
+      <h2>Proyectos principales</h2>
+      <p class="lead">Selección breve. Cada ficha incluye problema, enfoque y resultado.</p>
+
+      <div class="grid cols-3">
+        <!-- Proyecto 1 -->
+        <article class="card project elevate">
+          <h3>Proyecto Big Data – Transporte Público - Santiago de Chile</h3>
+          <p class="meta">Google Cloud Platform • BigQuery  • Dataflow (Apache Beam) • Pub/Sub • Looker Studio • Python 3.8</p>
+          <p>Este proyecto utiliza Google Cloud Platform para implementar una arquitectura Big Data que analiza datos del transporte público en Santiago.</p>
+          <p class="muted">Resultado: Reportes dinámicos y análisis de accesibilidad, rutas y servicios por empresa</p>
+          <p><a href="https://github.com/Nadarellano/bigdata-transporte-santiago" target="_blank" rel="noopener">Repositorio</a> · <a href="https://github.com/Nadarellano/bigdata-transporte-santiago/blob/main/docs/Informe_Completo_Proyecto_Transporte_BigData_GCP.pdf" target="_blank" rel="noopener">Informe</a></p>
+        </article>
+
+        <!-- Proyecto 2 -->
+        <article class="card project elevate">
+          <h3>Predicción de Lluvias mediante Machine Learning con CRISP-DM</h3>
+          <p class="meta">Python • Jupyter Notebook • Pandas • NumPy • Scikit-learn • Matplotlib • Seaborn • Looker Studio</p>
+          <p>Buscamos identificar patrones estacionales, prever condiciones climáticas adversas y desarrollar modelos predictivos confiables.</p>
+          <p class="muted">Resultado: Predicción de lluvia con 83% de accuracy usando Árbol de Decisión</p>
+          <p><a href="https://github.com/Nadarellano/modelo-prediccion-lluvia" target="_blank" rel="noopener">Repositorio</a> · <a href="https://github.com/Nadarellano/modelo-prediccion-lluvia/blob/main/Docs/Resumen_Profesional_Proyecto_Prediccion_Lluvias.pdf" target="_blank" rel="noopener">Informe</a></p>
+        </article>
+
+        <!-- Proyecto 3 -->
+        <article class="card project elevate">
+          <h3>Aplicación Web "Club de la Comuna"</h3>
+          <p class="meta">Django • JavaScript • Flask • PostgreSQL • Amazon S3 • Google Oauth2</p>
+          <p>Plataforma web desarrollada con el objetivo de promover el comercio local en la comuna de Macul, mediante una solución tecnológica que conecta a los vecinos con negocios locales afiliados.</p>
+          <p class="muted">Resultado: Solución tecnológica funcional y escalable, capaz de integrarse con comunidades u organizaciones que buscan impulsar sus economías locales.</p>
+          <p><a href="https://www.youtube.com/watch?v=yyWqx2GflOA" target="_blank" rel="noopener">Video Presentación</a> · <a href="https://drive.google.com/file/d/1y6or-63F_Ihua9pTA6zQPYd0ntqWIZdk/view?usp=sharing" target="_blank" rel="noopener">Informe</a></p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ==========
+         CONTACTO
+         ========== -->
+    <section id="contacto" style="margin-top:26px">
+      <h2>Contacto</h2>
+      <div class="card pad">
+        <p class="lead">¿Conversamos? Estoy abierta a proyectos y colaboración.</p>
+        <ul class="list">
+          <li>Email: <a href="mailto:tu-correo@ejemplo.com">nadia.arellano.g@gmail.com</a></li>
+          <li>LinkedIn: <a href="https://www.linkedin.com/in/nadia-aracelly-arellano-gonz%C3%A1lez-426aa721?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B5JVDKf2qSnWg9N2CS1AxoA%3D%3D" target="_blank" rel="noopener">linkedin.com/nadia-aracelly-arellano-gonzález</a></li>
+          <li>GitHub: <a href="https://github.com/Nadarellano" target="_blank" rel="noopener">github.com/Nadarellano</a></li>
+        </ul>
+      </div>
+      <div class="footer">© <span id="year"></span> Nadia Arellano · Hecho con HTML/CSS/JavaScript — para GitHub Pages</div>
+    </section>
+  </main>
+
+  <!-- ==========
+       JavaScript mínimo (accesibilidad/UX)
+       ========== -->
+  <script>
+    // año dinámico
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // marcar link activo en scroll
+    const sections = [...document.querySelectorAll('main section[id]')];
+    const links = [...document.querySelectorAll('.pillnav a')];
+    const isInView = el => {
+      const r = el.getBoundingClientRect();
+      return r.top < innerHeight*0.35 && r.bottom > innerHeight*0.35;
+    };
+    addEventListener('scroll', () => {
+      const current = sections.find(isInView);
+      if(!current) return;
+      links.forEach(a => a.classList.toggle('active', a.getAttribute('href') === '#'+current.id));
+    }, {passive:true});
+  </script>
+
+  <!-- ==========
+       Datos estructurados (SEO)
+       ========== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Nadia Arellano",
+    "jobTitle": "Analista de Datos / Cloud Security",
+    "url": "https://tu-dominio-o-github.io/",
+    "sameAs": [
+      "https://github.com/tu-usuario",
+      "https://www.linkedin.com/in/tu-perfil"
+    ]
+  }
+  </script>
+</body>
+</html>
